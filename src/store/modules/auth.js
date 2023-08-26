@@ -18,7 +18,7 @@ export default {
     
     logout(state){
       state.isAuthenticated = false
-      localStorage.removeItem("foodDeliveryAppToken");
+      localStorage.removeItem("DeliveryAppToken");
     }
   },
 
